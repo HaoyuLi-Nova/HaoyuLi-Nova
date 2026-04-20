@@ -22,7 +22,7 @@ Contact: **haoyuli404@outlook.com** · **+86-158-2700-2669**
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='images/500x300.png' alt="S3Mamba-Pan" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS</div><img src='images/Mamba_Framework.png' alt="S3Mamba-Pan framework: FDFM, GSA, DSMM, and ADR for pansharpening" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **S3Mamba-Pan: Spectral-Spatial-Scale Mamba for Pansharpening**
@@ -31,7 +31,8 @@ Haoyu Li (3rd author), et al.
 
 *IEEE Transactions on Geoscience and Remote Sensing* (**accepted**).
 
-- Frequency-decoupled dual-stream Mamba for pansharpening; Haar-wavelet decomposition with global spectral anchors; reported **~2.6×** faster inference than Transformer baselines in our study.
+- **Framework (overview):** low-res MS and HR PAN are processed with **FDFM** (DWT-based frequency splits), **GSA** for global spectral modeling and anchor features, repeated **DSMM** blocks (multi-scale Mamba with spatial and state-space branches), and **ADR** (IDWT + channel-wise fusion) to predict **HRMS**.
+- **Efficiency:** about **2.6×** faster inference than Transformer baselines in our experiments.
 
 </div>
 </div>
@@ -68,7 +69,7 @@ Haoyu Li (3rd author), et al.
   - **Privacy & security:** Membership inference in multi-modal re-identification; probing mechanisms to analyze and mitigate cross-modal leakage in distributed settings.
 
 - **Intelligent Interface Center, Harbin Institute of Technology** — *Research Intern* · Dec. 2025 – Present · Remote · Advisor: Prof. Tiejun Zhao  
-  - **S3Mamba-Pan:** Spectral–spatial–scale Mamba architecture for pansharpening (see publication above).  
+  - **S3Mamba-Pan:** Pansharpening framework with FDFM / GSA / DSMM / ADR (see IEEE TGRS figure above).  
   - **Clinical time-series generation:** Implemented rectified-flow diffusion models for high-fidelity clinical data synthesis.
 
 <span class='anchor' id='-projects'></span>
