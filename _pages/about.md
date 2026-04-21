@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: ""
+lang: en
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -16,7 +17,7 @@ Contact: **haoyuli404@outlook.com** · **+86-158-2700-2669**
 
 # 🔥 News
 
-- *2026.04*: &nbsp;📝 Multiple works are under review, including *FedMental* (ECCV), *PsycheAgents* / *PsyCare* (npj Digital Medicine), and others—see Publications below.
+- *2026.04*: &nbsp;📝 Multiple works are under review, including *PsycheAgents* / *PsyCare* (npj Digital Medicine) and others—see Publications below.
 - *2025.10*: &nbsp;🏆 Received **Meritorious Student Leader** and **Wuhan University Triple-A Student** honors.
 - *2025*: &nbsp;🥇 **National Third Prize**, National Computer System Capability Competition; **Central-South Regional First Prize**, National Undergraduate Computer Design Competition; **Hubei Province Second Prize**, National College Student Mathematics Competition; **Honorable Award**, American Mathematics Modeling Contest for College Students.
 
@@ -37,7 +38,6 @@ Haoyu Li (3rd author), et al.
 </div>
 </div>
 
-- **FedMental: Topology-Aware Federated Prototypes for Multi-Center Multimodal Psychiatry** — Haoyu Li (1st author), et al. **ECCV 2026** (*under review*).
 - **PsycheAgents: A Multi-Modal Agentic Framework for Psychiatric Differential Diagnosis** — Haoyu Li (1st author), et al. **npj Digital Medicine** (*under review*).
 - **PsyCare: A Multi-dimensional Multimodal Benchmark for Major Psychiatric Disorder Recognition** — Haoyu Li (2nd author), et al. **npj Digital Medicine** (*under review*).
 - **Rectified Flow for Electronic Health Record Synthesis** — Haoyu Li (1st author), et al. (*manuscript submitted to npj Digital Medicine*).
@@ -63,7 +63,7 @@ Haoyu Li (3rd author), et al.
 # 🔬 Research Experience
 
 - **MARS Lab, Wuhan University** — *Research Assistant* · Apr. 2025 – Present · Wuhan, China · Advisor: Prof. Mang Ye  
-  - **FedMental:** Topology-aware federated prototype framework for multi-center psychiatric diagnosis; unsupervised cluster-based prototypes to mitigate the chimera prototype problem under non-IID settings; strong results on multimodal benchmarks.  
+  - **Multi-center federated learning (psychiatry):** Topology-aware federated prototype methods for multi-center diagnosis; unsupervised cluster-based prototypes to mitigate the chimera prototype problem under non-IID settings; strong results on multimodal benchmarks.  
   - **PsycheAgents:** Multi-modal agentic framework for differential diagnosis; hierarchical reasoning inspired by clinical consultation.  
   - **PsyCare:** Co-developed a multi-dimensional psychiatric benchmark; clinical data shared on **Harvard Dataverse** to support privacy-preserving medical AI research.  
   - **Privacy & security:** Membership inference in multi-modal re-identification; probing mechanisms to analyze and mitigate cross-modal leakage in distributed settings.

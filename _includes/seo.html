@@ -8,7 +8,11 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
+{% if page.lang == 'zh' %}
+<title>{{ site.title }} - 主页</title>
+{% else %}
 <title>{{ site.title }} - Homepage</title>
+{% endif %}
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -29,7 +33,20 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="en">
+{% if page.lang == 'zh' %}
+<meta property="og:locale" content="zh_CN">
+{% else %}
+<meta property="og:locale" content="en_US">
+{% endif %}
+{% if page.url == '/' or page.url == '/index.html' %}
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="zh-Hans" href="{{ '/zh/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% elsif page.url == '/zh/' or page.url == '/zh/index.html' %}
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="zh-Hans" href="{{ '/zh/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{% endif %}
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ site.title }}">
 
