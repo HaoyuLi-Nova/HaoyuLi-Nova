@@ -19,7 +19,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Haoyu Li"
-  avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/avatar-profile.png"
   bio              : "B.Eng. in Computer Science, Wuhan University"
   bio_zh           : "武汉大学计算机科学与技术学士（在读）"
   location         : "Wuhan, China"
@@ -63,6 +63,7 @@ include:
   - _pages
   - files
 exclude:
+  - scripts
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
